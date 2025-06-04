@@ -22,6 +22,22 @@ This project analyzes U.S. domestic flight data (5.8M+ records) to compare airli
 - `flights_cleaned.csv` – Final cleaned dataset (~100k sample rows)
 - Visuals: Charts showing delays, volume, route risk, etc.
 
+##**Charts**
+| Chart Title                           | Filename                       | Why Include                                    |
+| ------------------------------------- | ------------------------------ | ---------------------------------------------- |
+| **Average Delay by Airline**          | `avg_delay_by_airline.png`     | Shows the core performance comparison          |
+| **Top 10 Most Delayed Routes**        | `top_delayed_routes.png`       | Route-specific pain points → useful & visual   |
+| **Heatmap of Delay by Hour & Day**    | `delay_heatmap.png`            | Gives temporal insight — strong storytelling   |
+| **Flight Volume by Airline**          | `flight_volume_by_airline.png` | Demonstrates traffic load vs performance       |
+| **Flight Distance by Airline**        | `avg_distance_by_airline.png`  | Adds operational context to delay stats        |
+| **Top Origin Airports by Volume**     | `top_origin_airports.png`      | Shows connection hubs — relevant for ops roles |
+| **Taxi Time by Airport**              | `taxi_time_by_airport.png`     | Indicates congestion and airport performance   |
+| **Turnaround Time by Tail Number**    | `turnaround_by_tail.png`       | Shows fleet reuse and operational efficiency   |
+| **Weekend vs Weekday Delays**         | `weekday_vs_weekend_delay.png` | Offers human-readable timing advice            |
+| **Model Evaluation Confusion Matrix** | `confusion_matrix_rf.png`      | Demonstrates modeling evaluation               |
+| **SHAP Summary Plot (if used)**       | `shap_feature_importance.png`  | Explains model logic visually                  |
+
+
 ## 🛠 Tools & Libraries
 
 - Python (Pandas, Seaborn, Matplotlib, SHAP, Scikit-learn)
