@@ -22,7 +22,6 @@ This project analyzes U.S. domestic flight data (5.8M+ records) to compare airli
 - `flights_cleaned.csv` – Final cleaned dataset (~100k sample rows)
 - Visuals: Charts showing delays, volume, route risk, etc.
 
-##**Charts**
 | Chart Title                           | Filename                       | Why Include                                    |
 | ------------------------------------- | ------------------------------ | ---------------------------------------------- |
 | **Average Delay by Airline**          | `avg_delay_by_airline.png`     | Shows the core performance comparison          |
