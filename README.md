@@ -35,7 +35,6 @@ This project analyzes U.S. domestic flight data (5.8M+ records) to compare airli
 | **Turnaround Time by Tail Number**    | `turnaround_by_tail.png`       | Shows fleet reuse and operational efficiency   |
 | **Weekend vs Weekday Delays**         | `weekday_vs_weekend_delay.png` | Offers human-readable timing advice            |
 | **Model Evaluation Confusion Matrix** | `confusion_matrix_rf.png`      | Demonstrates modeling evaluation               |
-| **SHAP Summary Plot (if used)**       | `shap_feature_importance.png`  | Explains model logic visually                  |
 
 
 ## 🛠 Tools & Libraries
